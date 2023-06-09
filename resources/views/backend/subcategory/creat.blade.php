@@ -25,18 +25,14 @@
                 {{Session::get('success')}}
             </div>
         @endif  
-        <div class="card-header p-0 position-relative  mx-3 z-index-2">
-              <div class="bg-gradient-primary shadow-primary border-radius-lg pt-2  pb-1">
-                <h6 class="text-white text-capitalize ps-3">Create Sub-Category</h6>
-              </div>
-            </div>
+        
   <div class="card-body">
     <form action="{{url('admin/subcategory/store')}}" method="POST"enctype="multipart/form-data">
     @csrf
     <div class="mb-3 mt-3">
       <label for="text">Category Name:</label><br>
       <select name="category_id" class="form-control">
-        <option value="">select Category</option>
+        <option value="">Select Category</option>
         @isset($category_id)
         @foreach($category_id as $cat)
           <option value="{{$cat->id}}">{{$cat->category_name}}</option>

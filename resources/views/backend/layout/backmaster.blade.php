@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
-    <title>CORK Admin - Multipurpose Bootstrap Dashboard Template </title>
+    @yield('title')
         <!-- END PAGE LEVEL PLUGINS/CUSTOM STYLES -->
 
 
@@ -68,7 +68,7 @@
                                         <nav class="breadcrumb-style-one" aria-label="breadcrumb">
                                             <ol class="breadcrumb">
                                                 <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
-                                                <li class="breadcrumb-item active" aria-current="page">Analytics</li>
+                                                
                                             </ol>
                                         </nav>
                         
@@ -119,10 +119,22 @@
                         <div class="col-xl-2 col-lg-12 col-md-12 col-sm-12 col-12 layout-spacing">
                             <div class="widget widget-six">
                                 
+                                
+                                    <div class="w-chart-section">
+                                    
+                                            <p class="w-title">Compleate Orders</p>
+                                            <p class="w-stats">423,964</p>                    
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="col-xl-2 col-lg-12 col-md-12 col-sm-12 col-12 layout-spacing">
+                            <div class="widget widget-six">
+                                
                                 <div class="w-chart">
                                     <div class="w-chart-section">
                                     
-                                            <p class="w-title">Visits</p>
+                                            <p class="w-title">Running Orders</p>
                                             <p class="w-stats">423,964</p>
                                         
                                         
@@ -139,7 +151,7 @@
                                 <div class="w-chart">
                                     <div class="w-chart-section">
                                     
-                                            <p class="w-title">Visits</p>
+                                            <p class="w-title">Cancel Orders</p>
                                             <p class="w-stats">423,964</p>
                                         
                                         
@@ -156,24 +168,7 @@
                                 <div class="w-chart">
                                     <div class="w-chart-section">
                                     
-                                            <p class="w-title">Visits</p>
-                                            <p class="w-stats">423,964</p>
-                                        
-                                        
-                                    </div>
-
-                                    
-                                </div>
-                            </div>
-                            
-                        </div>
-                        <div class="col-xl-2 col-lg-12 col-md-12 col-sm-12 col-12 layout-spacing">
-                            <div class="widget widget-six">
-                                
-                                <div class="w-chart">
-                                    <div class="w-chart-section">
-                                    
-                                            <p class="w-title">Visits</p>
+                                            <p class="w-title">Due Orders</p>
                                             <p class="w-stats">423,964</p>
                                         
                                         

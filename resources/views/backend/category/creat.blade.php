@@ -23,11 +23,7 @@
                 {{Session::get('success')}}
             </div>
         @endif -->  
- <div class="card-header p-0 position-relative  mx-3 z-index-2">
-              <div class="bg-gradient-primary shadow-primary border-radius-lg pt-2  pb-1">
-                <h6 class="text-white text-capitalize ps-3">Create Category</h6>
-              </div>
-            </div>
+ 
   <div class="card-body">
     <form action="{{url('admin/category/store')}}" method="POST"enctype="multipart/form-data">
         @csrf
