@@ -33,7 +33,7 @@
   </div>
   <div class="form-group">
     <label for="exampleInputPassword1">Fa Fa Icon</label>
-    <input type="file" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"name="fa_fa_icon">
+    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"name="fa_fa_icon">
     
   </div>
   <div class="form-group">

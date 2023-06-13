@@ -40,6 +40,8 @@ Route::Post('admin/login', [App\Http\Controllers\backend\AdminController::class,
           Route::put('admin/category/update', [App\Http\Controllers\backend\CategoryController::class, 'categoryUpdate']);
           Route::get('admin/category/delete/{id}', [App\Http\Controllers\backend\CategoryController::class, 'categoryDelete']);
 
+
+
 //subcategory----------------------------------->>>>>
          Route::get('admin/subcategory', [App\Http\Controllers\backend\SubcategoryController::class, 'index']);
          Route::get('admin/subcategory/create', [App\Http\Controllers\backend\SubcategoryController::class, 'create']);
@@ -48,6 +50,24 @@ Route::Post('admin/login', [App\Http\Controllers\backend\AdminController::class,
          Route::put('admin/subcategory/update', [App\Http\Controllers\backend\SubcategoryController::class, 'subcategoryUpdate']);
 
          Route::get('admin/subcategory/delete/{id}', [App\Http\Controllers\backend\SubcategoryController::class, 'subcategoryDelete']);
+
+          //Manage Hr-======================================================================
+
+         Route::get('admin/mange_employi', [App\Http\Controllers\backend\ManageHr\ManageEmployiController::class, 'mangeEmployi']);
+         Route::get('admin/add-employee', [App\Http\Controllers\backend\ManageHr\ManageEmployiController::class, 'addEmployee']);
+         Route::get('admin/manage-service', [App\Http\Controllers\backend\ManageHr\ManageServiceController::class, 'manageServic']);
+         Route::get('admin/manage-service', [App\Http\Controllers\backend\ManageHr\ManageServiceController::class, 'manageServic']);
+         Route::get('admin/add-service-provider', [App\Http\Controllers\backend\ManageHr\ManageServiceController::class, 'addServiceProvider']);
+          //Expences-======================================================================
+
+         Route::get('admin/add-expences', [App\Http\Controllers\backend\expences\AddExpencesController::class, 'addExpences']);
+         Route::get('admin/today-report-expences', [App\Http\Controllers\backend\expences\AddExpencesController::class, 'todayReportExpences']);
+          Route::get('admin/manage-head-expences', [App\Http\Controllers\backend\expences\AddExpencesController::class, 'addManageHeadExp']);
+          Route::get('admin/add-expences-head', [App\Http\Controllers\backend\expences\AddExpencesController::class, 'addExpencesHead']);
+
+
+
+
 
 
 
@@ -73,4 +93,6 @@ Route::Post('customer/create', [App\Http\Controllers\frontend\CustomerController
 //Associate==================
 Route::Post('associate/login', [App\Http\Controllers\frontend\AssociateController::class, 'login']);
 Route::Post('associate/create', [App\Http\Controllers\frontend\AssociateController::class, 'create']);
+
+
 

@@ -12,6 +12,49 @@
                             <div class="statbox widget box box-shadow">
                                 <div class="widget-content widget-content-area">
                                     <table id="html5-extension" class="table dt-table-hover" style="width:100%">
+                                        
+                                            <div class="row">
+                                                <div class="col-1 border-radius-lg pt-4 pb-3"></div>
+                                                <div class="col-3 border-radius-lg pt-4 pb-3">
+                                                  <div class="ms-md-auto pe-md-3 d-flex align-items-center">
+                                                   <div class="input-group input-group-outline">
+                                                    <label class="form-label"></label> 
+                                                    <input type="text" name="" class="form-control" onfocus="focused(this)" onfocusout="defocused(this)">  
+                                                   </div>   
+                                                  </div>  
+                                                </div>
+                                                <div class="col-1 border-radius-lg ">
+                                                  <div class="ms-md-auto pe-md-3 d-flex align-items-center">
+                                                      <div class="input-group input-group-outline">
+                                                        <div class="">
+                                                            <a href="#" type="button" class="btn bg-danger mt-4 w-100">Search</a>
+                                                        </div>  
+                                                      </div>
+                                                  </div>
+
+                                                </div>
+                                                <div class="col-2 border-radius-lg ms-3">
+                                                  <div class="ms-md-auto pe-md-3 d-flex align-items-center">
+                                                    <div class="input-group input-group-outline">
+                                                      <div class="">
+                                                        <a href="#" type="button" class="btn bg-info mt-4 w-100">ALL SHOW</a>  
+                                                      </div>  
+                                                    </div>  
+                                                  </div>  
+                                                </div>
+                                                <div class="col-1 border-radius-lg pt-4 pb-3"></div>
+                                                  <div class="col-3 border-radius-lg ">
+                                                    <div class="ms-md-auto pe-md-3 d-flex align-items-center">
+                                                        <div class="input-group input-group-outline">
+                                                         <div class="">
+                                                          <a href="{{url('admin/todaySummary')}}" type="button" class="btn bg-success mt-4 w-100">TODAY SUMMARY'S </a>   
+                                                         </div>   
+                                                        </div>
+                                                        
+                                                    </div>  
+                                                  </div>  
+                                                
+                                            </div>
                                         <thead>
                                             <tr>
                                                 <th>STATUS</th>
@@ -42,13 +85,13 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <tr>
+                                            <tr style="background-color: yellow;color:black;" class="odd">
                                                 <td class="text-center">
                                                         <span class="badge badge-light-info">Check</span>
                                                 </td> 
                                                 <td>                                               
                                                     <div class="btn-group">
-                                                       <select>
+                                                       <select style="background-color:#f5b042;">
                                                            <option value="">Cancel </option>
                                                            <option value="">Transfer </option>
                                                            <option value="">Hold </option>
@@ -88,13 +131,13 @@
                                                 <td>N/A</td>
                                                
                                             </tr>
-                                            <tr>
+                                            <tr style="background-color:#f5b042;color:black;" class="even">
                                                 <td class="text-center">
                                                         <span class="badge badge-light-info">CheckIn</span>
                                                 </td>
                                                 <td>
                                                     <div class="btn-group">
-                                                       <select>
+                                                       <select style="background-color:#f5b042;">
                                                            <option value="">Cancel </option>
                                                            <option value="">Transfer </option>
                                                            <option value="">Hold </option>
@@ -137,6 +180,7 @@
                                             </tr>
                                             
                                         </tbody>
+                                        
                                     </table>
                                 </div>
                             </div>

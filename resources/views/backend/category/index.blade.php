@@ -45,7 +45,9 @@
                                                 <td>{{$cate->created_at}}</td>
                                                 <td>{{$cate->category_name}}</td>
                                                 <td>{{$cate->fa_fa_icon}}</td>
-                                                <td>{{$cate->image}}</td>
+                                                <td>
+                                                    <img src="{{asset('/backend/assets/img/'.$cate->image)}}" height="50px" width="50px" class="img-fluid">
+                                                </td>
                                                 <td class="text-center">
                                                     <span class="badge badge-light-success">Approved</span>
                                                 </td>

@@ -113,11 +113,56 @@
                         </div>
                     </div>
                     <!--  END BREADCRUMBS  -->
-                    
+                    <div class="row">
+                        <div class="col-3 border-radius-lg pt-4 pb-3 ">
+                            <div class="input-group input-group-outline">
+                                <label class="form-label">
+                                    <input type="date" name="" class="form-control" onfocus="focused(this)" onfocusout="defocused(this)" placeholder="date">
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-3 border-radius-lg pt-4 pb-3">
+                            <div class="input-group input-group-outline">
+                                <label class="form-label">
+                                    <input type="date" name="" class="form-control" onfocus="focused(this)" onfocusout="defocused(this)" placeholder="date">
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-3 border-radius-lg pt-4 pb-3">
+                            <div class="input-group input-group-outline">
+                                <label class="form-label">
+                                    <select class="form-control">
+                                        <option>Select Service Name</option>
+                                        <option>Select Service Name</option>
+                                    </select>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-1 border-radius-lg">
+                            <div >
+                            <div class="input-group input-group-outline">
+                                <div class="">
+                                    <a href="#" type="button" class="btn bg-info mt-4 w-100">Search</a>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-1 border-radius-lg ms-2">
+                            <div >
+                            <div class="ms-md-auto pe-md-3 d-flex align-items-center">
+                                <div class="input-group input-group-outline">
+                                <div class="">
+                                    <a href="#" type="button" class="btn bg-success mt-4 w-100">New</a>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                         </div>
                     <div class="row layout-top-spacing">
 
                         <div class="col-xl-2 col-lg-12 col-md-12 col-sm-12 col-12 layout-spacing">
-                            <div class="widget widget-six">
+                            <div class="widget widget-six ">
                                 
                                 
                                     <div class="w-chart-section">
@@ -214,6 +259,7 @@
                             
                         </div>
                     </div>
+                   
 
                     @yield('section')
 

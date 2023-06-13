@@ -67,7 +67,7 @@
                                 <!-- COLUMNS 2 -->
                                 <div class="aon-bnr2-lines-left">
                                     <div class="aon-bnr2-line-left-content">
-                                        <img src="{{asset('frontend/images/banner2/line-left.png')}}" alt="">
+                                        <img src="{{asset('frontend/images/amenities/banner2/line-left.png')}}" alt="">
                                         <span class="circle-l-1 slide-fwd-center"></span>
                                         <span class="circle-l-2 slide-fwd-center2"></span>
                                         <span class="circle-l-3 slide-fwd-center3"></span>
